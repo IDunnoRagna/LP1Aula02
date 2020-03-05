@@ -13,10 +13,10 @@ namespace Cilindro
             Console.Write("Write the radius of the cylinder: ");
             string sri = Console.ReadLine();
             float r = float.Parse(sri);
-            double p = 3.1415926;
+            double p = Math.PI;
             {
                 Console.Write("The volume of the cylinder is ");
-                Console.WriteLine(p * r * r * h);
+                Console.WriteLine(p * Math.Pow(r, 2) * h);
                 Console.Write("The area of the cylinder is ");
                 Console.WriteLine(2 * p * r * (r + h));
 
