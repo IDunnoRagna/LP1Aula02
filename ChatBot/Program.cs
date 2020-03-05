@@ -16,24 +16,27 @@ namespace ChatBot
                     {
                         Console.WriteLine("Misaki.");
                     }
-                if (x == "What's the best bandori song?")
+                else if (x == "What's the best bandori song?")
                     {
                     Console.WriteLine("Roselia cover of Charles.");
                     }
-                if (x == "Gay?")
+                else if(x == "Gay?")
                     {
                     Console.WriteLine("Yes.");
                     }
-                if (x == "What's the worst band?")
+                else if(x == "What's the worst band?")
                     {
                     Console.WriteLine("RAS.");
                     }
-                if (x == "EXIT")
+                else if(x == "EXIT")
                     {
                     Console.WriteLine("Goodbye...");
                     y = false;
                     }
-
+                else
+                    {
+                    Console.WriteLine("Who?");
+                    }
             }
         }
     }
