@@ -33,6 +33,12 @@ namespace ValoresEspeciais
             double x = double.PositiveInfinity;
             double y = double.NegativeInfinity;
             float z = float.NaN;
+            short c2 = 2 * short.MaxValue;
+            ushort d2 = 2 * ushort.MaxValue;
+            int e2 = 2 * int.MaxValue;
+            uint f2 = 2 * uint.MaxValue;
+            long g2 = 2 * long.MaxValue;
+            ulong h2 = 2 * ulong.MaxValue;
             Console.WriteLine(a);
             Console.WriteLine(b);
             Console.WriteLine(c);
@@ -60,6 +66,12 @@ namespace ValoresEspeciais
             Console.WriteLine(x);
             Console.WriteLine(y);
             Console.WriteLine(z);
+            Console.WriteLine(c2);
+            Console.WriteLine(d2);
+            Console.WriteLine(e2);
+            Console.WriteLine(f2);
+            Console.WriteLine(g2);
+            Console.WriteLine(h2);
         }
     }
 }
