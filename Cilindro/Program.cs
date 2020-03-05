@@ -17,7 +17,9 @@ namespace Cilindro
             {
                 Console.Write("The volume of the cylinder is ");
                 Console.WriteLine(p * r * r * h);
-                
+                Console.Write("The area of the cylinder is ");
+                Console.WriteLine(2 * p * r * (r + h));
+
             }
         }
     }
